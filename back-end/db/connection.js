@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('tcctest', 'root', '@Python123', {
+const sequelize = new Sequelize('tccteste', 'root', '@Python123', {
     dialect: 'mysql',
     host: 'localhost',
     port: 3306
