@@ -114,9 +114,9 @@ main{
     outline: none;
     border: none;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -207,6 +207,29 @@ main{
 
 .i3:focus + .inputz,
 .i3:not(:placeholder-shown) + .inputz{
+  font-size: 13px;
+  margin-top: -20px;
+  color: #b8a6b5;
+}
+
+.i4 input::placeholder{
+    color:transparent;
+  }
+
+.i4:focus + .inputz,
+.i4:not(:placeholder-shown) + .inputz{
+  font-size: 13px;
+  margin-top: -20px;
+  color: #b8a6b5;
+}
+
+
+.i5 input::placeholder{
+    color:transparent;
+  }
+
+.i5:focus + .inputz,
+.i5:not(:placeholder-shown) + .inputz{
   font-size: 13px;
   margin-top: -20px;
   color: #b8a6b5;
