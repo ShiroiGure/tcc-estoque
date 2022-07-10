@@ -122,7 +122,11 @@ main{
 }
 
 .t{
-    padding-bottom: 95px;
+    padding-bottom: 60px;
+    background-color: #FFFFFF;
+}
+.y{
+    padding-bottom: 15px;
     background-color: #FFFFFF;
 }
 
@@ -191,6 +195,18 @@ main{
 
 .i2:focus + .inputz,
 .i2:not(:placeholder-shown) + .inputz{
+  font-size: 13px;
+  margin-top: -20px;
+  color: #b8a6b5;
+}
+
+
+.i3 input::placeholder{
+    color:transparent;
+  }
+
+.i3:focus + .inputz,
+.i3:not(:placeholder-shown) + .inputz{
   font-size: 13px;
   margin-top: -20px;
   color: #b8a6b5;
@@ -274,6 +290,18 @@ input{
     background: #000000 40%;
     color: #FFFFFF;
     border: none
+}
+.cad3 a{
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    width: 300px;
+    height: 40px;
+}
+.cad3 a:hover{
+    
+    background: #EBD9E8;
+    color: #000000;
 }
 .cad3 button:hover {
     background:  #EBD9E8 40%;
